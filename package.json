@@ -1,0 +1,17 @@
+{
+  "name": "gfgconnect-api",
+  "version": "1.0.0",
+  "description": "GFG Connect API (Azure Functions v4, Node.js). Read-only pass-through to Momentum/NowCerts. Stores no client data.",
+  "private": true,
+  "main": "src/functions/*.js",
+  "scripts": {
+    "start": "func start",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "@azure/functions": "^4.5.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
